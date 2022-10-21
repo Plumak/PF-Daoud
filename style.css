@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+  
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(242, 215, 36);
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    height: 50px;
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+nav a:hover {
+    color: whitesmoke
+}
+.info {
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 15px;
+}
+.santa { 
+    display: flex;
+    justify-content: center;
+   
+}
+.dicestadio {
+    margin-top: 20px;
+    text-align: center
+}
+.textoestadio {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.imgestadio {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  
+}
+.tienda{
+    display: flex;
+    justify-content: center;
+ 
+}
+.follow {
+    margin-top: 20px;
+}
+.igg {
+    height: 40px;
+    width: 40px;
+}
+
+.partidos{
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+:root {
+ --facebook: #3b5999;
+ --instagram: #e4405f;
+ --twitter: #55acee;
+}
+.redes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.redes-container ul li{
+display: inline-block;
+margin: 0 5px;
+width: 50px;
+height: 50px;
+text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #333;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+    margin-top: 50px;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+.tienda {
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+   padding-top: 10px;
+}
+.mapstienda {
+    width: 400px;
+    height: 300px;
+}
+.camiseta {
+    height:300px;
+    width: 400px;
+}
+.maps-estadio {
+    display: flex;
+    justify-content:center ; 
+}
