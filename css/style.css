@@ -333,6 +333,7 @@ nav a:hover {
   .partidos-sub {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 10px;
     background-color: #f2d724;
     width: 150px;
