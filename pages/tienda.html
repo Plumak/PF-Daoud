@@ -5,30 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="/imagenes/santapng.png" alt="" class="logo-img">
-    <h2>Pagina de Ramon Santamarina</h2>
- </div>
-    <nav>
-        <a href="../index.html">Info</a>
-        <a href="/pages/estadio.html">Estadio</a>
-        <a href="/pages/tienda.html">Tienda</a>
-        <a href="/pages/socio.html">Socio</a>
+        <nav class="navbar navbar-expand-lg style="background-color: rgb(242, 215, 36)>
+            <div class="container-fluid">
+               <img src="/imagenes/santapng.png" alt="" width="40"><a class="navbar-brand">Pagina de Ramon Santamarina
+                
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/estadio.html">Estadio</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/socio.html">Socio</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     
- </nav>
  </header> 
-    <h2 class="info">Tienda</h2>
-    <p class="info">La "Tienda de Ramon" , esta ubicada en Yrigoyen 646, podrás hacerte socio, adquirir entradas para los próximos partidos o porque no, comprar ropa del aurinegro.</p>
+    <h2 class="info-tienda">Tienda</h2>
+    <p class="info-tienda">La "Tienda de Ramon" , esta ubicada en Yrigoyen 646, podrás hacerte socio, adquirir entradas para los próximos partidos o porque no, comprar ropa del aurinegro.</p>
  
-   <div class="tienda">
-    <img class=camiseta src="/imagenes/casacasanta.jpeg" alt="">
+   <div class="tienda-foto">
+    <img class="camiseta" src="/imagenes/casacasanta.jpeg" alt="">
     <iframe class="mapstienda" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.752478817126!2d-59.14060763469518!3d-37.32469042984389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f909d5de4a9%3A0xa6dc52acd3d50920!2sLa%20Tienda%20de%20Ramon!5e0!3m2!1ses-419!2sar!4v1664859729367!5m2!1ses-419!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- </div>
+  </div>
  <div class="redes-container">
     <ul>
       <li><a href="https://www.facebook.com/ClubSantamarinaTandil/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -37,5 +55,6 @@
   
     </ul>
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

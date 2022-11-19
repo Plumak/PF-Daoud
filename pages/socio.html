@@ -5,49 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fixture</title>
-    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="/imagenes/santapng.png" alt="" class="logo-img">
-    <h2>Pagina de Ramon Santamarina</h2>
- </div>
-    <nav>
-        <a href="../index.html">Info</a>
-        <a href="/pages/estadio.html">Estadio</a>
-        <a href="/pages/tienda.html">Tienda</a>
-        <a href="/pages/socio.html">Socio</a>
-    
- </nav>
+
+ <nav class="navbar navbar-expand-lg style="background-color: rgb(242, 215, 36)>
+    <div class="container-fluid">
+       <img src="/imagenes/santapng.png" alt="" width="40"><a class="navbar-brand">Pagina de Ramon Santamarina
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/estadio.html">Estadio</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/socio.html">Socio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
  </header> 
     <div class="partidos">
         <h2 class="partidos-sub">Hacete Socio</h2>
         <h3 class="pregunta-socio">¿Que beneficios tiene ser socio?</h3>
         <p class="texto-respuno">Siendo socio tenes 2 entradas populares por partido gratis, o 2 plateas por 1000$. Ademas tenes un 10% de descuento en la tienda.</p>
+        <div class="grupo">
         <h3 class="pregunta-socio">¿Cuanto sale hacerme socio?</h3>
         <p class="texto-respdos">Ser socio tiene un valor de 800$ por mes.</p>
+      </div>
      </div>
      <form class="formulario-socio">
      
-        <label for="nombre">Nombre:</label>
+        <label for="nombre"></label>
         <input type="text" placeholder="Escribe tu nombre"> <br>
-        <label for="apellido">Apellido:</label>
+        <label for="apellido"></label>
         <input type="text" placeholder="Escribe tu apellido"> <br>
-        <label for="dni">Dni:</label>
+        <label for="dni"></label>
         <input type="number" placeholder="Escribe tu dni"> <br>
-        <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+        <label for="fecha de nacimiento"></label>
         <input type="date"> <br>
-        <label for="domicilio">Domicilio :</label> 
+        <label for="domicilio"></label> 
         <input type="text" placeholder="Escribe tu domicilio"> <br>
-        <label for="ciudad">Ciudad :</label>
+        <label for="ciudad"></label>
         <input type="text" placeholder="Escribe tu ciudad"> <br>
-        <label for="celular">Celular</label>
+        <label for="celular"></label>
         <input type="number" placeholder="Ingresa tu numero"> <br>
-        <label for="email">Email:</label>
-        <input type="email"> <br>
-        <input type="submit" value="Enviar">
+        <label for="email"></label>
+        <input type="email"placeholder="Ingrese su mail"><br>
+          <br><input type="submit" value="Enviar">
         
 
 
@@ -63,5 +83,6 @@
       
         </ul>
        </div>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
